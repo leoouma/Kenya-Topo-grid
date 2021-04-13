@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topo Reference Map</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=GFS+Neohellenic">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="assets/js/main_style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+    
+    <link rel="stylesheet" href="assets/js/leaflet-search-master/src/leaflet-search.css" />
+    <script src="assets/js/leaflet-search-master/src/leaflet-search.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.72.2/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.72.2/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+    <script src="assets/js/ke_50_topo_index.js"></script>
+
+</head>
+
+<body style="background-color:rgb(254,254,254);padding:5px;">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color:rgb(255,255,255);padding-left:10px;padding-right:5px;">
+            <div class="container"><a class="navbar-brand" href="javascript:window.location.href=window.location.href" style="color:#7a00d4;"><em>Kenya Reference Map</em></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1" style="font-size:18px;font-family:'GFS Neohellenic', sans-serif;">
+                    <ul class="nav navbar-nav ml-auto">
+                       <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#"><strong>Help</strong></a></li>-->
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#"><strong>About</strong></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#"><strong>Contact Us</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id='mainmap'></div>
+    <script src="assets/js/map_script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
